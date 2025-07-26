@@ -139,7 +139,7 @@ def main():
             print(e)
             return
 
-    for name, val in variables.items():
+    for _, val in variables.items():
         print(f"{val}")
 
 main()
